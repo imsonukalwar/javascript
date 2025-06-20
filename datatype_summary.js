@@ -38,4 +38,7 @@ function myfunction =function (){
 }
 
 console.log(typeof);
+console.log(typeof valuenumber);
+console.log(typeof myfunction );
+
 
