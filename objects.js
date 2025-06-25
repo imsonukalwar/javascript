@@ -34,7 +34,20 @@ const user ={
 //like this
 user.email="sonukalwar@gmail.com"
 console.log(user.email);
+//console.log(user);//print all user content
 
+
+user.greeting=function(){//    here function use as a variable
+    console.log(" sonu kalwar sir");
+    
+}
+//console.log(user.greeting);
+
+user.greeting1=function(){
+    console.log(`hello js user ${this.name}`);//here this keyword reference of user
+    
+}
+console.log(user.greeting1());
 
 
 
