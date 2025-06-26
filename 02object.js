@@ -31,7 +31,7 @@ const obj={1:"a",2:"b"}
 const obj1={3:"a",4:"b"}
 //const obj3={obj,obj1}; not execute in propriate way
 const obj3=Object.assign({},obj,obj1)
-// console.log(obj3);
+// console.log(obj3)
 
 
 
